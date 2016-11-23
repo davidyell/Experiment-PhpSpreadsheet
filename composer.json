@@ -1,0 +1,22 @@
+{
+    "name": "david/test-php-spreadsheet",
+    "description": "Testing the spreadsheet",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Yell",
+            "email": "dyell@ukwebmedia.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/PHPOffice/PhpSpreadsheet"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "dev-master"
+    }
+}
